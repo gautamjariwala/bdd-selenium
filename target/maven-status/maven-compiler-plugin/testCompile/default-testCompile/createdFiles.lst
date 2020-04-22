@@ -1,0 +1,5 @@
+com\bddhp\testdf\RestAssuredStepDef.class
+com\bddhp\pageobjects\GetRequestMethods.class
+com\bddhp\testdf\Calculator.class
+com\bddhp\testdf\Hptestdef.class
+com\bddhp\testrunner\Testrunner.class

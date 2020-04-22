@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.bddhp.testrunner.Testrunner" time="17.524" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gautam\git\site-regression\bddhp"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\gautam\git\site-regression\bddhp"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gautam\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\gautam\AppData\Local\Android\sdk\platform-tools;C:\Users\gautam\AppData\Local\Android\sdk\tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\SaferVPN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby23-x64\bin;C:\Users\gautam\AppData\Local\Microsoft\WindowsApps;C:\Users\gautam\AppData\Local\Programs\Fiddler;C:\Users\gautam\AppData\Local\Microsoft\WindowsApps;C:\Users\gautam\AppData\Roaming\npm;C:\Users\gautam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2019.3.1\bin;C:\Users\gautam\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\DataGrip 2020.1\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\gautam"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="cucumber.filter.tags" value="@smoke"/>
+    <property name="user.name" value="gautam"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.filter.tags=@smoke"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verify all the Flipkart log in scenarios" name="Happy Path User Log in Scenario" time="17.524">
+    <error message="element click intercepted: Element &lt;a class=&quot;_3Ep39l&quot; href=&quot;/account/login?ret=/&quot;&gt;...&lt;/a&gt; is not clickable at point (657, 27). Other element would receive the click: &lt;div class=&quot;_2ISNhP _3AOFWO&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GAUTAM-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\gautam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f86a392886d47860eb7dfd3b851b581e" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;_3Ep39l&quot; href=&quot;/account/login?ret=/&quot;&gt;...&lt;/a&gt; is not clickable at point (657, 27). Other element would receive the click: &lt;div class=&quot;_2ISNhP _3AOFWO&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GAUTAM-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\gautam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f86a392886d47860eb7dfd3b851b581e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.bddhp.testdf.FlipkartLogIn.i_click_on_LOGIN_button(FlipkartLogIn.java:29)
+	at ✽.I click on LOGIN button(file:///C:/Users/gautam/git/site-regression/bddhp/./src/test/resources/features/flipkart_Log_In.feature:5)
+</error>
+    <system-out>
+@smoke
+Scenario: Happy Path User Log in Scenario          &amp;#27;[90m# src/test/resources/features/flipkart_Log_In.feature:3&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on Flipkart Homepage&amp;#27;[0m                  &amp;#27;[90m# com.bddhp.testdf.FlipkartLogIn.i_am_on_Flipkart_Homepage()&amp;#27;[0m
+  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mI click on LOGIN button&amp;#27;[0m                     &amp;#27;[90m# com.bddhp.testdf.FlipkartLogIn.i_click_on_LOGIN_button()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;_3Ep39l&quot; href=&quot;/account/login?ret=/&quot;&gt;...&lt;/a&gt; is not clickable at point (657, 27). Other element would receive the click: &lt;div class=&quot;_2ISNhP _3AOFWO&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GAUTAM-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\gautam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f86a392886d47860eb7dfd3b851b581e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.bddhp.testdf.FlipkartLogIn.i_click_on_LOGIN_button(FlipkartLogIn.java:29)
+	at ?.I click on LOGIN button(file:///C:/Users/gautam/git/site-regression/bddhp/./src/test/resources/features/flipkart_Log_In.feature:5)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEnter username and password and click log in&amp;#27;[0m &amp;#27;[90m# com.bddhp.testdf.FlipkartLogIn.enter_username_and_password_and_click_log_in()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI am logged in&amp;#27;[0m                              &amp;#27;[90m# com.bddhp.testdf.FlipkartLogIn.i_am_logged_in()&amp;#27;[0m
+</system-out>
+    <system-err>Apr 21, 2020 4:27:49 PM io.cucumber.junit.Cucumber &lt;init&gt;
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 25233
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 21, 2020 4:27:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587500875.646][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500875.747][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500875.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500875.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.155][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.256][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.359][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.538][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.640][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.850][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500876.952][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.159][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.261][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.366][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.469][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.573][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.676][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500877.883][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500878.310][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500879.348][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500879.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500879.553][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500879.834][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500879.936][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.037][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.141][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.243][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.345][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.553][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.862][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500880.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.064][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.166][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.269][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.477][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.884][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500881.985][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.288][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.491][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.597][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500882.901][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500883.004][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500883.106][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500883.436][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500883.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500883.778][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500883.905][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.286][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.391][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.495][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.599][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500884.970][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.083][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.184][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.286][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.793][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.894][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500885.995][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500886.097][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500886.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500886.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500886.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500886.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587500886.606][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+</testsuite>
